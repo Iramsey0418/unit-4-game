@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Middle-Earth RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/player.js"></script>
+    <script src="assets/javascript/enemy.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|MedievalSharp|Nosifer" rel="stylesheet">
+</head>
+
+<body>
+        <audio controls autoplay loop>
+                <source src="assets/audio/Lotr.mp3" type="audio/ogg">
+</audio>
+    <div class="header">
+        <p>Middle-Earth RPG</p>
+        <h2>Choose your hero!</h2>
+
+    </div>
+    <div class="interface">
+        <a href="#" onclick="gameManager.setGameStart('Aragorn')">
+            <img src="assets/images/PC-Avatars/Aragorn.jpg" alt="aragorn">
+            <h3>Aragorn</h3>
+            <p>Aragorn son of Arathorn, an exeptional dunedain ranger from the north and heir to the throne of Gondor. 
+            He is a well versatile fighter with very even stats giving him no strengths or weaknesses. 
+            </p>
+        </a>
+        <a href="#" onclick="gameManager.setGameStart('Legolas')">
+                <img src="assets/images/PC-Avatars/Legolas.jpg" alt="legolas">
+                <h3>Legolas</h3>
+                <p>Legolas son of Thranduil, prince of mirkwood. Is an astounding elven warrior using his bow to attack his enemies swiftly
+                        Is an astounding elven archer who strikes swiftly many times. High speed and Stamina
+                    </p>
+            </a>
+            <a href="#" onclick="gameManager.setGameStart('Gimli')">
+                    <img src="assets/images/PC-Avatars/Gimli.jpg" alt="gimli">
+                    <h3>Gimli</h3>
+                    <p>Gimli son of Gloin. Is a noble dwarf from the Blue Mountains. Slow and clumsey is made up for in strength and health for this dwarf.</p> 
+                </a>
+                <a href="#" onclick="gameManager.setGameStart('Gandalf')">
+                        <img src="assets/images/PC-Avatars/Gandalf.jpg" alt="gandalf">
+                        <h3>Gandalf</h3>
+                        <p>Gandalf known by many names is one of five powerful wizards of middle-earth.
+                                Using mana to decmiate his with spells. He lacks in everyother stat.
+                        </p>
+                        </a> 
+    </div>
+    <div class="actions">
+
+    </div>
+    <div class="arena">
+
+    </div>
+    <div class="enemy">
+
+    </div>
+
+
+</body>
+
+</html>
